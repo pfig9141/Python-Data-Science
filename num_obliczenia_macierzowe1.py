@@ -14,7 +14,7 @@ n = 10
 np.linalg.solve(np.random.randn(n**2).reshape(n,n),np.random.randn(n,1))
 
 
-# In[47]:
+# In[48]:
 
 
 n = 2
@@ -29,6 +29,111 @@ print(c)
 print(s)
 print(v)
 print(d)
+
+
+# In[62]:
+
+
+s
+
+
+# In[63]:
+
+
+v
+
+
+# In[64]:
+
+
+d
+
+
+# mnożenie macierzy
+
+# In[67]:
+
+
+a = np.array([[1,2],[2,-1]])
+b = np.array([[-1,-1],[1,2]])
+
+
+# In[69]:
+
+
+np.matmul(a,b)
+
+
+# In[ ]:
+
+
+a = 
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

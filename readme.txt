@@ -4,3 +4,5 @@ dsp_fcyfrowy1.py
 proste wykresy, indywidualne importowanie procedur z bibliotek
 dsp_fcyfrowy2.py
 projekt filtra cyfrowego wraz z zastosowaniem
+num_obliczenia_macierzowe1.py
+różne działania na macierzach

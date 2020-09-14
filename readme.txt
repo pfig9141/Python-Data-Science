@@ -14,3 +14,5 @@ implementacja filtra FIR oraz filtra IIR, z zamieszczeniem legendy do wykresu
 jak w nazwie
 # obliczanie koherencji.py (-wykresy)
 wykreślanie funkcji koherencji dwóch przebiegów sin+szum, generowanie okna graficznego oraz osi liczbowej i jej konfiguracja (xlim,grid)
+# wykres_slupkowy.html
+wykres słupkowy z dwiema kateogoriami, wartości średnie, odchylenie standardowe, opis osi

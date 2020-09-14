@@ -12,3 +12,5 @@ filtracja cyfrowa sygnału zmodulowanego częstotliwościowo zaszumionego, zwró
 implementacja filtra FIR oraz filtra IIR, z zamieszczeniem legendy do wykresu
 # import_z_matpliku.py
 jak w nazwie
+# obliczanie koherencji.py (-wykresy)
+wykreślanie funkcji koherencji dwóch przebiegów sin+szum, generowanie okna graficznego oraz osi liczbowej i jej konfiguracja (xlim,grid)

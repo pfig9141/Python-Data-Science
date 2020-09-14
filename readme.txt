@@ -16,3 +16,5 @@ jak w nazwie
 wykreślanie funkcji koherencji dwóch przebiegów sin+szum, generowanie okna graficznego oraz osi liczbowej i jej konfiguracja (xlim,grid)
 # wykres_slupkowy.html
 wykres słupkowy z dwiema kateogoriami, wartości średnie, odchylenie standardowe, opisy osi
+# wykres_3_ticks_lim — kopia.html
+okno graficzne z trzema ukladami wspolrzednymi, konfigurowanie 'tickow' oraz zakresow osi OY

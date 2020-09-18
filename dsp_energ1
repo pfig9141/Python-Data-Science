@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy.io 
+mat = list(scipy.io.loadmat('H:/Szary Komputer/2/Doktorat/ss/ss/GIHA/Rejestracje/R1uF_mat.mat').values())[3]
+N_mat = len(mat)
+n = np.arange(0,int(N_mat/2),1,dtype=np.int)
+u = mat[0:int(N_mat/2)]
+u = u/u.max()
+i = mat[int(N_mat/2):int(N_mat)]
+i = i/i.max()
+# wykresy
+fig = plt.figure(figsize=(7.5,5),facecolor='white')
+ax = fig.gca()
+ax.plot(n,u,n,i)
+ax.set_xlim(179e3,180e3)
+tin = 179200

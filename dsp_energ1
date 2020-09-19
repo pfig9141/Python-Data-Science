@@ -14,3 +14,5 @@ ax = fig.gca()
 ax.plot(n,u,n,i)
 ax.set_xlim(179e3,180e3)
 tin = 179200
+u1, i1 = u[int(101e3):int(101300)], i[int(101e3):int(101300)]
+np.savetxt('H:/Programowanie/repozytorium/energ1.txt',np.column_stack([u1,i1])) # zapis do pliku

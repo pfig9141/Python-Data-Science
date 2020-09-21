@@ -23,3 +23,5 @@ plt.gca().set_xlim(0,500)
 plt.gca().grid(True)
 plt.gca().set_xlabel('f [Hz]')
 plt.gca().set_ylabel(' Mag [dB]')
+for k in [50,150,250,350,550]:
+    plt.plot(np.array([k,k]),np.array([-140,0]),color='blue')

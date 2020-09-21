@@ -19,5 +19,7 @@ wykreślanie funkcji koherencji dwóch przebiegów sin+szum, generowanie okna gr
 # wykres_slupkowy.html
 wykres słupkowy z dwiema kateogoriami, wartości średnie, odchylenie standardowe, opisy osi
 # dsp_dft1.py
-obliczanie DFT sygnału znormalizowanego / list(scipy.io.loadmat('G:/Czarny Pendrive/Szary Komputer/2/Doktorat/ss/ss/GIHA/Rejestracje/R1uF_mat.mat',squeeze_me=True).values())[3] /, wykres, obliczanie modułu widma
-,
+  obliczanie DFT sygnału znormalizowanego / list(scipy.io.loadmat('G:/Czarny Pendrive/Szary Komputer/2/Doktorat/ss/ss/GIHA/Rejestracje         /R1uF_mat.mat',squeeze_me=True).values())[3] /, wykres, obliczanie modułu widma, na końcu wydrukowanie amplitud poszczegolnych harmonicznych
+for k in np.arange(0,2000,50,dtype='int')/(25/8):
+    print(Data1[int(k)])
+    

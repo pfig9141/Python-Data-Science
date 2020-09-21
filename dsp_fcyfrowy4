@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.signal as scp
+data = np.loadtxt('C:/Users/figonpiot/Desktop/siec_szum.txt') # dane z dysku WAT
+data = data-data.mean()                                       # usunięcie wartości średniej
+n = np.arange(0,len(data),1)                                  # czas
+b,a = scp.iirfilter(5,[0.05],btype='lowpass')                 # filtr dolnopasmowy
+y = scp.lfilter(b,a,data)                                     # filtracja
+fig = plt.figure(figsize=(25,25))
+plt.plot(n,data,n,y)

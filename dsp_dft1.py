@@ -25,3 +25,5 @@ plt.gca().set_xlabel('f [Hz]')
 plt.gca().set_ylabel(' Mag [dB]')
 for k in [50,150,250,350,550]:
     plt.plot(np.array([k,k]),np.array([-140,0]),color='blue')
+for k in np.arange(0,2000,50,dtype='int')/(25/8):
+    print(Data1[int(k)])

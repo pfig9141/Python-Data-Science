@@ -22,4 +22,6 @@ wykres słupkowy z dwiema kateogoriami, wartości średnie, odchylenie standardo
   obliczanie DFT sygnału znormalizowanego / list(scipy.io.loadmat('G:/Czarny Pendrive/Szary Komputer/2/Doktorat/ss/ss/GIHA/Rejestracje         /R1uF_mat.mat',squeeze_me=True).values())[3] /, wykres, obliczanie modułu widma, na końcu wydrukowanie amplitud poszczegolnych harmonicznych
 for k in np.arange(0,2000,50,dtype='int')/(25/8):
     print(Data1[int(k)])
-    
+ # analiza_energ.py
+   rozszerzenie dsp_dft1.py, ten sam sygnał do analizy, wykreślanie pary u/i z dowolnie wybranego fragmentu sygnału, obliczanie dft u oraz i a nastepnie impedancji,
+   impedancje obliczono poprzez zastosowanie procedury np.append w petli (NP.APPEND)

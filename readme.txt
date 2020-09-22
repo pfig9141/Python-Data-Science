@@ -1,4 +1,4 @@
-### a
+# PODSTAWY NUMPY, CYFROWE PRZETWARZANIE SYGNAŁÓW
 # tutorial_rozne1.py
 praca z listami, zip, proste wykresy
 ------

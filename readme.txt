@@ -34,3 +34,5 @@ for k in np.arange(0,2000,50,dtype='int')/(25/8):
 # analiza_energ.py (html +)
 rozszerzenie dsp_dft1.py, ten sam sygnał do analizy, wykreślanie pary u/i z dowolnie wybranego fragmentu sygnału, obliczanie dft u oraz i a nastepnie impedancji,
 impedancje obliczono poprzez zastosowanie procedury np.append w petli (NP.APPEND)
+# dane_energ_14_sygnalow.py 
+14 sygnałów których źródłem była sieć energetyczna, krótki opis części z nich w środku pliku

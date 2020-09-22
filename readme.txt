@@ -43,3 +43,6 @@ analiza sygnału /data3 = list(scipy.io.loadmat('H:/Materialy/korekta pasmowa/as
 2) obliczanie widma przebiegu odpowiedzi oraz przebiegu pobudzenia (bez eliminacji źródeł)
 3) obserwacja widma dowolnego fragmentu badanego przebiegu
 zastosowano różne warianty wywołania NP.ARRANGE
+# dsp_fcyfrowy_gornop.py
+przetwarzanie sygnału / data3 = list(scipy.io.loadmat('H:/Materialy/korekta pasmowa/asynchr/takietam/RnCnF_mat.mat',squeeze_me=True).values())[3]/ (lub innego) 
+z wykorzystaniem FILTRA GORNOPRZEPUSTOWEGO (NP.BUTTER), w,h = scp.freqz...

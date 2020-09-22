@@ -8,6 +8,9 @@ proste wykresy, indywidualne importowanie procedur z bibliotek
 # dsp_fcyfrowy2.py
 projekt filtra cyfrowego
 ------
+# dsp_fcyfrowy3.py
+projekt filtra cyfrowego
+------
 # dsp_fcyfrowy4.py
 # filtracja sygnału 50 Hz + silny szum / data = np.loadtxt('C:/Users/figonpiot/Desktop/siec_szum.txt') / filtrem rekursywnym dolnopasowym
 # num_obliczenia_macierzowe1.py, różne działania na macierzach

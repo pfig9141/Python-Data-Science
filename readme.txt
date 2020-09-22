@@ -36,3 +36,10 @@ rozszerzenie dsp_dft1.py, ten sam sygnał do analizy, wykreślanie pary u/i z do
 impedancje obliczono poprzez zastosowanie procedury np.append w petli (NP.APPEND)
 # dane_energ_14_sygnalow.py 
 14 sygnałów których źródłem była sieć energetyczna, krótki opis części z nich w środku pliku
+------    
+# analiza_energ1.py 
+analiza sygnału /data3 = list(scipy.io.loadmat('H:/Materialy/korekta pasmowa/asynchr/takietam/RnCnF_mat.mat',squeeze_me=True).values())[3]/ 
+1) metoda zobrazowania danych energetycznych przy definiowaniu wektora pobudzenia (a nie odpowiedzi, najpierw prad ulokowany bliżej końca ciągu, a następnie napięcie)
+2) obliczanie widma przebiegu odpowiedzi oraz przebiegu pobudzenia (bez eliminacji źródeł)
+3) obserwacja widma dowolnego fragmentu badanego przebiegu
+zastosowano różne warianty wywołania NP.ARRANGE

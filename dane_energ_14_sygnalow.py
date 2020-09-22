@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 import scipy.signal as scp
 import scipy.io
 
+# dla komputer-laptop ścieżka 'H:\Materialy\korekta pasmowa\asynchr\takietam'
+
 data1 = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Materialy/korekta pasmowa/asynchr/takietam/RnCnF_mat.mat',squeeze_me=True).values())[3]
 data2 = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Materialy/korekta pasmowa/asynchr/takietam/RnCf_mat.mat',squeeze_me=True).values())[3]
 data3 = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Materialy/korekta pasmowa/asynchr/takietam/RNC5uFN_mat.mat',squeeze_me=True).values())[3]

@@ -1,0 +1,10 @@
+x(P:N-1)
+x(P:-1:1)
+pinv(X)*y
+a1=[1;-a]
+toeplitz
+roots
+log
+imag
+sort
+real

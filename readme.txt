@@ -46,3 +46,9 @@ zastosowano różne warianty wywołania NP.ARRANGE
 # dsp_fcyfrowy_gornop.py
 przetwarzanie sygnału / data3 = list(scipy.io.loadmat('H:/Materialy/korekta pasmowa/asynchr/takietam/RnCnF_mat.mat',squeeze_me=True).values())[3]/ (lub innego) 
 z wykorzystaniem FILTRA GORNOPRZEPUSTOWEGO (NP.BUTTER), w,h = scp.freqz...
+# analiza_energ2.py
+analiza sygnału / data = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Materialy/korekta pasmowa/asynchr/takietam/RNC5uFN_mat.mat',squeeze_me=True).values())[3] / pobudzenie co 1.5 okresu
+analiza podciągów o długości 15360 próbek
+analiza widmowa - subharmoniczne
+wykreślenie dwóch podciagów po przeniesieniu podciągu związanego z napięciem na stronę zakresu czasowego związanego z prądem
+

@@ -27,8 +27,9 @@ data13 = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Dane/Dane ener
 data14 = list(scipy.io.loadmat('G:/Dane do Stacjonarny WAT/dysk H/Dane/Dane energetyczne/data_97.mat',squeeze_me=True).values())[3]
 
 # RnCnF_mat.mat pobudzenie pradowe 705e3 do 780e3 i 961e3 do 1 024 000 , pobudzenie co 1.5 okresu
-
+# data7 pobudzenie co 1.5 okresu
 # data3 , data4, data5 , data9 większe odkształcenie niż data1,data2
-# data13 silny s.nieustalony, oscylacja
+# data13 silny s.nieustalony, oscylacja, tylko napiecie
 # data14 s.s.n, dużo artefaktów w sygnale
+# data10 , pobudzenie co 1.5 okresu
 

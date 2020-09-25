@@ -54,4 +54,5 @@ analiza podciągów o długości 15360 próbek
 analiza widmowa - subharmoniczne
 wykreślenie dwóch podciagów po przeniesieniu podciągu związanego z napięciem na stronę zakresu czasowego związanego z prądem
 dodanie 25.09.2020 krótkiego programu umożliwiające obserwację dwóch sygnałów synchronicznych
-
+# dsp_dft_macierzGen.py
+Program generuje macierz DFT oraz wykreśla funkcje bazowe przekształcenia 

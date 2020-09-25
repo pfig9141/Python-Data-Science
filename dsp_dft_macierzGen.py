@@ -7,3 +7,6 @@ f = 2
 plt.plot(np.arange(N),I[f,:].real,'r',np.arange(N),I[f,:].imag,'k')
 f = 254
 plt.plot(np.arange(N),I[f,:].real,'g',np.arange(N),I[f,:].imag,'b')
+
+x=np.sin(2*np.pi*100/256*n)
+(I[100,:]*x).sum()

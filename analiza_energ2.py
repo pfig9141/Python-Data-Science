@@ -1,4 +1,5 @@
-# analiza sygnału elektroenergetycznego pobudzanego co 1.5 okresu
+# analiza sygnału elektroenergetycznego pobudzanego co 1.5 okresu 
+# (25.09.20 dodano krótki program do przeglądania sygnałów synchronicznych)
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.signal as scp
@@ -39,3 +40,12 @@ Data1 = np.abs( scipy.fft(data1).real**2 + scipy.fft(data1).imag**2 )
 Data2 = np.abs( scipy.fft(data2).real**2 + scipy.fft(data2).imag**2 )
 plt.plot(f,20*np.log10(Data1),'ko-',f,20*np.log10(Data2),'b*')
 plt.gca().set_xlim(0,200)
+# DODATKOWO przeglądanie dwóch wektorów u/i synchronicznych
+data = np.loadtxt('G:/czerwony komputer/Sygnaly dla DSP/Bezposrednie/1/rejestracjaRC.txt')
+nstart, nstop = int(0), int(len(data))
+N = int(len(data))
+n = np.arange(len(data))
+data1 = data[:,0]/data[:,0].max()
+data2 = data[:,1]/data[:,1].max()
+plt.plot(n,data1,n,data2)
+plt.gca().set_xlim(200e3,203e3)

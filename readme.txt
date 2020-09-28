@@ -56,3 +56,11 @@ wykreślenie dwóch podciagów po przeniesieniu podciągu związanego z napięci
 dodanie 25.09.2020 krótkiego programu umożliwiające obserwację dwóch sygnałów synchronicznych
 # dsp_dft_macierzGen.py
 Program generuje macierz DFT oraz wykreśla funkcje bazowe przekształcenia 
+# f3numpy.py
+właściwości np.array (shape,size,ndim,size,dtype), metody np.array (sum,min,max,mean) oraz numpy.any i numpy.all
+# f4numpy.py
+tworzenie funkcji z wartością wywoływaną w oparciu o podanie argumentu, konstrukcja enumerate, działania na macierzach np.vstack np.hstack, algebra liniowa
+# f6formatowanieznakow.py
+formatowanie znaków
+# fscipytut1.py
+przegląd procedur wielomianowych

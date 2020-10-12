@@ -1,0 +1,2 @@
+###########################################
+plt.xlabel(r'x$\in [-1,1]$' + r' t$\in [' + str(a) + ',' + str(b)+']$') # x należy do przedziału [-1,1] x należy do przedziału [a,b]
